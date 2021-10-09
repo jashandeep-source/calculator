@@ -1,0 +1,109 @@
+
+body{
+    background-color: #940D0D;
+    
+}
+
+header{
+    background-color: white;
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-bottom: 60px;
+    font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-top-width: 20px;
+    border-bottom-width: 20px;
+    border-color: #252424;
+}
+
+h1{
+    margin-left: 20px;
+    margin-top: 40px;
+}
+
+h2{
+    color: #940D0D;
+    margin-left: 12px;
+}
+
+p{
+  margin-left: 12px;
+}
+
+div{
+    background-color:#E8F0F3;
+    margin-left: 20px;
+    margin-right: 450px;
+    margin-bottom: 30px;
+   
+}
+
+table{
+    border: solid 1p grey;
+    border-collapse: collapse;
+    margin: 12px;
+    
+}
+
+td{
+    border: solid 1pt grey;
+    width: 350px;
+    height:70px;
+}
+
+th{
+    font-size:20px;
+    color: black;
+    background-color: #D4D1D1;
+    border: solid 1pt grey;
+}
+
+.activity{
+    margin-left:5px;
+}
+
+.box{
+    width: 100px;
+    height: 25px;
+    margin-left:5px;
+    margin-top: 7px;
+}
+
+#checkResult{
+   color: Black;
+}
+
+#button1{
+    color: white;
+    background-color: maroon;
+    margin-left: 550px;
+    margin-bottom: 35px;
+}
+
+#button1:hover{
+    background-color: Grey;
+}
+
+#button2{
+    color: white;
+    background-color: maroon;
+    float: right;
+    margin-bottom: 35px;
+    margin-right: 12px;
+}
+
+#button2:hover{
+    background-color: Grey;
+}
+
+#button3{
+    color: white;
+    background-color: maroon;
+    margin-left: 555px;
+    margin-bottom: 25px;
+}
+
+#button3:hover{
+    background-color: Grey;
+}

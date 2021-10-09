@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="eng">
+<head>
+    <title>Calculator</title>
+    <meta charset="utf-8">
+    <link rel= "stylesheet" type="text/css" href="./stylesheets/calculator.css">
+    <script src="./calculator.js" defer></script>
+</head>
+<body>
+ 
+<header>
+   
+  <h1>Grade Calculator</h1>
+  <div>
+  <h2 id="activities">Activities</h2>
+  <p>Give grades to the numeric activities:</p>
+  <table>
+    <tr>
+      <th>Name</th><th>Short Name</th><th>Weight</th><th>Grade</th><th>Percent</th>
+    </tr>
+    <tr>
+        <form action ="/proces_form" method="post">
+      <td><p class = "activity">Activity 1</p></td><td><p class="activity">A1</p></td><td><input type ="number" class="box" id="weight1" ></td>
+      <td> <input type ="number" class="box" id="box1">/
+           <input type ="number" class="box" id="secondbox1" onchange="calculatePercentage();">
+      </td>
+      <td id="percentage"></td>
+    </tr>
+    <tr>
+      <td><p class ="activity">Activity 2</p></td><td><p class="activity">A2</p></td><td><input type ="number" class="box" id="weight2"></td>
+      <td> <input type ="number" class="box" id="box2">/
+        <input type ="number" class="box" id="secondbox2" onchange="calculatePercentage2();">
+      </td>
+      <td id="percentage2"></td>
+    </tr>
+    <tr>
+      <td><p class ="activity">Activity 3</p></td><td><p class="activity">A3</p></td><td><input type ="number" class="box" id="weight3"></td>
+      <td> <input type ="number" class="box" id="box3">/
+        <input type ="number" class="box" id="secondbox3" onchange="calculatePercentage3();"></td>
+      <td id="percentage3"></td>
+    </tr>
+    <tr>
+      <td><p class ="activity">Activity 4</p></td><td><p class="activity">A4</p></td><td><input type ="number" class="box" id="weight4">
+      </td><td><input type ="number" class="box" id="box4">/
+        <input type ="number" class="box" id="secondbox4" onchange="calculatePercentage4();"></td>
+      <td id="percentage4"></td>
+      </form>
+    </tr>
+ </table>
+ <h2 id="result">Result</h2>
+ <h2 id="checkResult"></h2>
+ <form action ="/proces_form" method="post">
+ <input type = "button" value ="WEIGHTED" id="button1" onclick = "calculateWeight();"/>
+ <input type = "button" value ="MEAN" id="button2" onclick = "calculateMean();"/>
+ <input type = "button" value ="CHECK FINAL RESULT" id="button3" onclick = "checkResult();"/>
+ </form>
+</div>
+
+</header>
+
+</body>
+</html>
